@@ -62,7 +62,7 @@ func main() {
 	defer outputFile.Close()
 
 	// ヘッダ
-	fmt.Fprintln(outputFile, `# Created by mklut64.go`)
+	fmt.Fprintln(outputFile, `# Created by img2cube.go`)
 	fmt.Fprintln(outputFile, `TITLE "`+baseName+`"`)
 	fmt.Fprintf(outputFile, "LUT_3D_SIZE %d\n", SIZE)
 	fmt.Fprintln(outputFile, `DOMAIN_MIN 0.0 0.0 0.0`)
